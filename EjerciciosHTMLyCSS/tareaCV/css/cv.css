@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+  }
+
+body {
+  background: #4c6277;
+  font-size: 0.75rem;
+  line-height: 1.25rem;
+  color: #525252;
+  padding: 0 1.25rem;
+}
+
+h2 {
+  text-transform: uppercase;
+  text-align: center;
+
+  margin-bottom: 0.6rem;
+  letter-spacing: 0.3rem;
+}
+
+ul li {
+  color: #fff;
+}
+
+.hoja {
+  width: 50rem;
+  max-width: 100%;
+  height: auto;
+  margin: 3.125rem auto;
+  background: #fff;
+}
+
+.hoja_top {
+  display: flex;
+  width: 100%;
+  height: 9.375rem;
+  position: relative;
+}
+
+.htop_left, 
+.htop_right {
+  width: 50%;
+  padding: 2.19rem;
+}
+
+.htop_left,
+.hbottom_left {
+  background: #93bbbb;
+} 
+
+.htop_right,
+.hbottom_right {
+  background: #7aa8a8;
+}
+
+.htop_left .name {
+  font-size: 2.5rem;
+  line-height: 3rem;
+}
+
+.htop_left .role {
+  font-size: 1rem;
+  line-height: 1.125rem;
+  margin-top: 0.9375rem;
+  letter-spacing: 0.3rem;
+  color: #fff;
+}
+
+.htop_right p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-bottom: 0.6rem;
+  text-align: right;
+}
+
+.h_foto {
+  position: absolute;
+  top: 1.875rem;
+  left: 50%;
+  transform: translateX(-50%);      /* Ayuda a que la foto permanezca en el centro al cambiar el tamaño de la pagina*/
+}
+
+.h_foto img {
+  width: 6.25rem;
+}
+
+.hoja_center {
+  padding: 4.69rem 2.19rem 2.19rem;
+  text-align: center;
+}
+
+.hoja_bottom {
+  display: flex;
+}
+
+.hoja_bottom > div {
+  padding: 2.19rem;
+  width: 50%;
+}
+
+.hb_skills,
+.h_education {
+  margin-bottom: 2.19rem;
+}
+
+.hbottom_left ul li {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 0.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hbottom_left ul li p:first-child {
+  width: 2.813rem;
+  height: 2.813rem;
+  background: #628989;
+  margin-right: 1.125rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.9rem;
+  color: #fff;
+}
+
+.hbottom_left ul li p:last-child {
+  width: calc(100% - 2.813rem);
+  text-align: left;
+}
+
+.hbottom_right > div ul li {
+  display: flex;
+  margin-bottom: 0.6rem;
+}
+
+.hbottom_right ul li div:first-child {
+  width: 30%;
+  margin-right: 1.125rem;
+}
+
+.hbottom_right ul li div:last-child {
+  width: 70%;
+}
+
+.hbottom_right p:first-child {
+  font-size: 1rem;
+  margin-bottom: 0.3rem;
+} 
